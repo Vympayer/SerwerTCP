@@ -44,6 +44,7 @@
             this.start.TabIndex = 0;
             this.start.Text = "Start";
             this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // stop
             // 
@@ -53,6 +54,7 @@
             this.stop.TabIndex = 1;
             this.stop.Text = "Stop";
             this.stop.UseVisualStyleBackColor = true;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
             // listBox1
             // 
@@ -70,6 +72,7 @@
             this.Adres.Size = new System.Drawing.Size(100, 20);
             this.Adres.TabIndex = 3;
             this.Adres.Text = "Adres";
+            this.Adres.TextChanged += new System.EventHandler(this.Adres_TextChanged);
             // 
             // port_p
             // 
@@ -82,6 +85,7 @@
             this.port_p.Name = "port_p";
             this.port_p.Size = new System.Drawing.Size(120, 20);
             this.port_p.TabIndex = 4;
+            this.port_p.ValueChanged += new System.EventHandler(this.port_p_ValueChanged);
             // 
             // Form1
             // 
